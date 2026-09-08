@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#general{
+    margin: auto;
+    margin-top: 50px;
+    width: 960px;
+    height: 850px;
+    background-color: red;
+}
+div#ofertas{
+    float: right;
+    width: 300px;
+    height: 500px;
+    background-color: green;
+}
+div#novedades{
+    width: 640px;
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div#novedades h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+div#body{
+    margin-top: 20px;
+    width: 640px;
+    height: 580px;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#body img{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
